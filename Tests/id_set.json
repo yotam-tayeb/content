@@ -1861,7 +1861,8 @@
         }, 
         {
             "ExtractDomainFromUrlAndEmail": {
-                "name": "ExtractDomainFromUrlAndEmail"
+                "name": "ExtractDomainFromUrlAndEmail", 
+                "deprecated": true
             }
         }, 
         {

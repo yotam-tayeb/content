@@ -2,6 +2,7 @@ commonfields:
   id: ExtractDomainFromUrlAndEmail
   version: -1
 name: ExtractDomainFromUrlAndEmail
+deprecated: true
 script: |-
   from tld import get_tld
   from validate_email import validate_email
@@ -38,3 +39,4 @@ args:
   description: The URL or Email to process
 scripttarget: 0
 dockerimage: demisto/tld
+releaseNotes: "Deprecated ExtractDomainFromUrlAndEmail"
