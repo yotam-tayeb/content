@@ -11811,7 +11811,8 @@
                 "name": "integration-CrowdStrikeStreaming", 
                 "commands": [
                     "crowdstrike-create-ioc", 
-                    "crowdstrike-search-iocs"
+                    "crowdstrike-search-iocs", 
+                    "crowdstrike-delete-iocs"
                 ]
             }
         }, 
