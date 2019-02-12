@@ -11808,7 +11808,10 @@
         }, 
         {
             "integration-CrowdStrikeStreaming": {
-                "name": "integration-CrowdStrikeStreaming"
+                "name": "integration-CrowdStrikeStreaming", 
+                "commands": [
+                    "crowdstrike-create-ioc"
+                ]
             }
         }, 
         {
