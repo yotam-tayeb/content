@@ -11810,7 +11810,8 @@
             "integration-CrowdStrikeStreaming": {
                 "name": "integration-CrowdStrikeStreaming", 
                 "commands": [
-                    "crowdstrike-create-ioc"
+                    "crowdstrike-create-ioc", 
+                    "crowdstrike-search-iocs"
                 ]
             }
         }, 
