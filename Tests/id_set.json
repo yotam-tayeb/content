@@ -11812,7 +11812,8 @@
                 "commands": [
                     "crowdstrike-create-ioc", 
                     "crowdstrike-search-iocs", 
-                    "crowdstrike-delete-iocs"
+                    "crowdstrike-delete-iocs", 
+                    "crowdstrike-update-iocs"
                 ]
             }
         }, 
