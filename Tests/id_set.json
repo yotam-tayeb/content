@@ -11744,6 +11744,18 @@
                     "GoogleResourceManager-Test"
                 ]
             }
+        }, 
+        {
+            "Azure Compute": {
+                "name": "Azure Compute", 
+                "commands": [
+                    "azure-vm-list-instances", 
+                    "azure-vm-start-instance", 
+                    "azure-vm-poweroff-instance", 
+                    "azure-vm-get-instance-details", 
+                    "azure-vm-create-instance"
+                ]
+            }
         }
     ], 
     "TestPlaybooks": [
