@@ -11813,7 +11813,8 @@
                     "crowdstrike-create-ioc", 
                     "crowdstrike-search-iocs", 
                     "crowdstrike-delete-iocs", 
-                    "crowdstrike-update-iocs"
+                    "crowdstrike-update-iocs", 
+                    "crowdstrike-search-device"
                 ]
             }
         }, 
