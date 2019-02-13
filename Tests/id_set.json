@@ -11753,7 +11753,8 @@
                     "azure-vm-start-instance", 
                     "azure-vm-poweroff-instance", 
                     "azure-vm-get-instance-details", 
-                    "azure-vm-create-instance"
+                    "azure-vm-create-instance", 
+                    "azure-list-resource-groups"
                 ]
             }
         }
