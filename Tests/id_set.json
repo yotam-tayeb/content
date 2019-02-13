@@ -5719,7 +5719,7 @@
                 "command_to_integration": {
                     "cylance-protect-get-devices": "Cylance Protect", 
                     "cb-sensor-info": "carbonblack", 
-                    "so-agents-query": "sentinelOne"
+                    "so-agents-query": "SentinelOne"
                 }
             }
         }, 
@@ -6274,9 +6274,12 @@
                     "Print", 
                     "Exists"
                 ], 
-                "implementing_commands": [
-                    "so-agents-query", 
-                    "so-get-agent-processes"
+                "command_to_integration": {
+                    "so-agents-query": "SentinelOne", 
+                    "so-get-agent-processes": "SentinelOne"
+                }, 
+                "tests": [
+                    "No test"
                 ]
             }
         }, 
@@ -7687,7 +7690,15 @@
                 "commands": [
                     "mar-search", 
                     "mar-collectors-list", 
-                    "mar-search-multiple"
+                    "mar-search-multiple", 
+                    "mar-search-services", 
+                    "mar-search-processes", 
+                    "mar-search-win-registry", 
+                    "mar-search-files", 
+                    "mar-search-usb-connected-storage-devices", 
+                    "mar-search-user-profiles", 
+                    "mar-search-scheduled-tasks", 
+                    "mar-search-host-info"
                 ]
             }
         }, 
@@ -11708,7 +11719,8 @@
                     "misp-add-attribute", 
                     "misp-upload-sample", 
                     "misp-delete-event", 
-                    "misp-add-tag"
+                    "misp-add-tag", 
+                    "misp-add-sighting"
                 ], 
                 "tests": [
                     "MISP V2 Test"
@@ -15752,6 +15764,36 @@
                     "VerifyHumanReadableContains", 
                     "HighlightWords"
                 ]
+            }
+        }, 
+        {
+            "MAR - Endpoint data collection test": {
+                "name": "MAR - Endpoint data collection test", 
+                "implementing_scripts": [
+                    "VerifyContext", 
+                    "DeleteContext"
+                ], 
+                "implementing_playbooks": [
+                    "MAR - Endpoint data collection"
+                ], 
+                "command_to_integration": {
+                    "mar-search-host-info": ""
+                }
+            }
+        }, 
+        {
+            "Endpoint data collection test": {
+                "name": "Endpoint data collection test", 
+                "implementing_scripts": [
+                    "VerifyContext", 
+                    "DeleteContext"
+                ], 
+                "implementing_playbooks": [
+                    "Endpoint data collection"
+                ], 
+                "command_to_integration": {
+                    "mar-search-host-info": ""
+                }
             }
         }
     ]
