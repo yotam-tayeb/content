@@ -1023,6 +1023,21 @@
         },
         {
             "playbookID": "Autoextract - Test"
+        },
+        {
+            "playbookID": "IP Enrichment - Generic - Test"
+        },
+        {
+            "playbookID": "Entity Enrichment - Generic - Test"
+        },
+        {
+            "playbookID": "Endpoint Enrichment - Generic Test"
+        },
+        {
+            "playbookID": "MAR - Endpoint data collection test"
+        },
+        {
+            "playbookID": "Endpoint data collection test"
         }
     ],
     "skipped_tests": {
